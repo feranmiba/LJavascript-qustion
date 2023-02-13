@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./queries.css">
+    <title>Jvascript Question</title>
+</head>
+<body>
+    <header>
+        <nav class="space">
+            <h1 class="user">
+                javascript quiz
+            </h1>
+            <p>
+               <a href="#"  class="move">sign up</a> 
+        </p>
+        </nav>
+
+    <!--SECTION 1-->
+        <section class="section--1">
+            <div>
+                <p class="test">
+                    test your javascript knowledge
+                </p>
+                    <p class="quiz">
+                        <a href="#" class="start">Start Quiz</a>
+                    </p>
+            </div>
+        </section>
+
+        <!--SIGN UP FORM-->
+        <form  class="form   operation--cotent--1 hidden" id="0">
+            <section class="signup">
+            <div>
+          <p>  <h2  id="plea">Please sign up</h2>  </p> 
+           <p id="name"><b >Provide your name, email and phone number</b></p> 
+           <div class="firstat">
+           <p class="adj"><span id="firs">Firstname</span> <span id="firs">Lastname</span></p>
+           <p class="adj"><span><input type="text" placeholder="FIRSTNAME" class="name"/></span> <span><input type="text" placeholder="LASTNAME" class="name"/></span></p>
+        </div>
+           <div class="emaildiv  hidden">
+            <p class="ade"><span class="email">Email</span></p>
+            <p class="ade"><input type="email" placeholder="javascript@gmail.com" class="mail"/></p>
+        </div>
+        <div class="number hidden">
+            <p class="ade"><span class="email">Number</span></p>
+            <p class="ade"><input type="number" placeholder="+234-123-456-789" class="numbe"/></p>
+        </div>
+        <div class="psscode hidden">
+            <p class="ade"><span class="email">Password</span></p>
+            <p class="ade"><input type="password" placeholder="****" class="passcode"/></p>
+            <p class="err">please input 4 digit number</p>
+        </div>
+
+            <p class="nextp">
+               <span> <a href="#" class="next">Next</a></span> 
+            </p>
+            <p class="done">
+                <span><a href="#" class="skip">Skip</a></span>
+                <span><a href="#" class="one hidden">Done</a></span>
+            </p>
+        </div>
+    </section>
+            </form>
+
+            <div class="info_box hidden">
+                <div class="info_title">
+                    <span>Some Rules of this Quiz</span>
+                </div>
+                <div class="info_list">
+                    <div class="info">1. You have only <b>15 seconds</b> per each question.</div>
+                    <div class="info">2. Once you select your answer, you can't reselect</div>
+                    <div class="info">3. You can't select an option once the time goes off</div>
+                    <div class="info">4. You can't exit from the quiz while you're playing</div>
+                    <div class="info">5. You will get points on the basis of your correct answer</div>
+                    <div class="info"></div>
+                </div>
+                <div class="buttons">
+                    <button class="quit">Exit Quiz</button>
+                    <button class="continue">Continue</button>
+                </div>
+            </div>
+
+
+            <div class="theview hidden">
+                <header>
+                   <p>question <b class="num">1</b></p> 
+                   <section>
+                    <div class="timer">
+                        <div class="timer_text">Time Left</div>
+                        <div class="timer_sec">15</div>
+                    </div>
+                    <div class="timer_line"></div>
+
+                </section>
+                </header>
+
+                <section class="section">
+                    <div class="que_text">
+                        <span>What Does HTML stands For</span>
+                    </div>
+                    <div class="option_list">
+                        <div class="option  active">
+                            <span>Hyper Text PreProcessor</span>
+                        </div>
+                        <div class="option">
+                            <span>Hyper Text PreProcessor</span>
+                        </div>
+                        <div class="option">
+                            <span>Hyper Text PreProcessor</span>
+                        </div>
+                        <div class="option">
+                            <span>Hyper Text PreProcessor</span>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="total_que">
+                        <span><p>2</p> of <p>15</p> question</span>
+                    </div>
+                    <button class="next_btn">Next</button> 
+                    <button class="submit_btn hidden">Submit</button> 
+                </footer>
+            </div>
+
+             <div class="overlay hidden"></div>
+    <section class="outcome hidden">
+        <div class="again">
+        <p class="message"></p>
+        <p class="ok"><button class="okay">ok</button></p>
+    </div>
+    </header>
+
+
+
+    <script type="module" src="./js/script.js" defer></script>
+    <script type="module" src="./js/word.js" defer></script>
+</body>
+</html>

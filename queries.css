@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {  
+    .test {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .start {
+        width: 30%;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .move {
+        font-size: 20px;
+    }
+    .signup {
+        width: 80%
+    }
+    .info_box {  
+        width: 450px;
+    }
+    .theview {
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 480px) {  
+    .test {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .start {
+        width: 38%;
+        font-size: 15px;
+    }
+    .space {
+        padding: 0 1rem;   
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .move {
+        font-size: 18px;
+    }
+    .signup {
+        width: 90%
+    }
+input[type='text'] {
+  width: 90%;
+  padding: 2px;
+  height: 35px;
+}
+.info_box {  
+    width: 320px;
+}
+.theview {
+    width: 380px;
+}
+.theview .section .que_text {
+    font-size: 22px;
+}
+.outcome {
+    position: absolute;
+    font-size: 10px;
+    width: 80%;
+}
+.message {
+    font-size: 15px;
+ }
+
+}
+@media only screen and (max-width: 393px) { 
+    .test {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .start {
+        width: 45%;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .move {
+        font-size: 16px;
+    }
+    .theview {
+        width: 320px;
+    }
+    .theview header .timer {
+        width: 125px;
+        height: 45px;
+        background: #cce5ff;
+        border: 1px solid #b8daff;
+        padding: 0 8px;
+        border-radius: 5px;
+    }
+    .theview .section .que_text {
+        font-size: 18px;
+    }
+    .theview header b {
+        padding: 5px 8px 5px 8px;
+        font-size: 12px;
+    }
+    .theview header .timer .timer_text {
+        font-weight: 600;
+        font-size: 12px;
+        user-select: none;
+    }
+    .theview header .timer .timer_sec {
+        font-size: 15px;
+        width: 40px;   
+    } 
+}
